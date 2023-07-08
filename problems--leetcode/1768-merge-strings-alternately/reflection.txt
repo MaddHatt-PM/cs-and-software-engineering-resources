@@ -1,0 +1,3 @@
+With my first iteration, my while loop would null-coalesce out any out of bound errors at the cost of some speed.
+This is likely due to the increased times I would instantiate a string. 
+To improve the solution, I opted in for stopping the loop and slicing in the longer word.

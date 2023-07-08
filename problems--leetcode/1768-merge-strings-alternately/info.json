@@ -1,0 +1,9 @@
+{
+    "id": 1768,
+    "difficulty": "easy",
+    "solve-date": "7-8-2023",
+    "tags": ["Two Pointers", "String"],
+    "groups": ["leetcode-75"],
+    "best-runtime-beat": 75.34,
+    "best-memory-beat": 95.70
+}
