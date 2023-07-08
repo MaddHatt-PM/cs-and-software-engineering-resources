@@ -1,0 +1,9 @@
+{
+    "id": 206,
+    "difficulty": "easy",
+    "solve-date": "7-9-2023",
+    "tags": ["Linked List", "Recursion"],
+    "groups": ["leetcode-75"],
+    "best-runtime-beat": 99.70,
+    "best-memory-beat": 98.47
+}

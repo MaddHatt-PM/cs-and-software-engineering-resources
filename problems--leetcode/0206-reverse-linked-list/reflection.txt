@@ -1,0 +1,1 @@
+Basic linked list question. I should practice more with working with this data structure.
