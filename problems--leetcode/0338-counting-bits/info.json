@@ -1,0 +1,9 @@
+{
+    "id": 338,
+    "difficulty": "easy",
+    "solve-date": "7-10-2023",
+    "tags": ["Dynamic Programming", "Bit Manipulation"],
+    "groups": ["leetcode-75"],
+    "best-runtime-beat": 77.68,
+    "best-memory-beat": 85.23
+}

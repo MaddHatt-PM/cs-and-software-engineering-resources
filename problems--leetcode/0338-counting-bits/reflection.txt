@@ -1,0 +1,5 @@
+My initial approach involved a nested loop.
+This approach would usually lead to being timed out.
+After switching to a bit operation approach, I was able to pass the last test case.
+I should study bit operation more.
+I gained some speed by initializing the array rather than using the spread operator.
