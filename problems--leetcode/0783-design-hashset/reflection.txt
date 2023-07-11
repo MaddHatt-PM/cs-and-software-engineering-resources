@@ -1,0 +1,4 @@
+Created a HashSet that used a LinkedList to handle collisions.
+On seeing other people's approaches, I noticed that someone used a Binary Search Tree (BST) for their approach.
+I was able to tune my underlying `data` array to get the most efficiency around 750 entires.
+My solution does not handle resizing and rebalancing.
