@@ -1,0 +1,2 @@
+Classis DP (Double Pointer) problem. Took some time to remember the right order for the algorithm.
+Could have used popping and appending but wanted to restrict it to in-place modification.
