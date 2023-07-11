@@ -1,0 +1,9 @@
+{
+    "id": 605,
+    "difficulty": "easy",
+    "solve-date": "7-9-2023",
+    "tags": ["Array", "Greedy"],
+    "groups": ["leetcode-75"],
+    "best-runtime-beat": 76.37,
+    "best-memory-beat": 94.59
+}
