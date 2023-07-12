@@ -1,0 +1,9 @@
+{
+    "id": 1557,
+    "difficulty": "medium",
+    "solve-date": "7-12-2023",
+    "tags": ["Graph"],
+    "groups": [],
+    "best-runtime-beat": 93.61,
+    "best-memory-beat": 88.20
+}

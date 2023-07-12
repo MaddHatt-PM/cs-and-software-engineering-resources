@@ -1,0 +1,1 @@
+At first, this problem seemed to be confusing as it sounded like I needed to generate the shortest path whose nodes and subnodes would need to connect all other points. After recalling the strategy from yesterdays video and rereading the problem, I see that I am only providing a list of nodes that can connect to all other nodes.
