@@ -3,7 +3,7 @@
     "difficulty": "easy",
     "solve-date": "7-11-2023",
     "tags": ["Array", "Hash Table", "Linked List", "Design", "Hash Function"],
-    "groups": ["leetcode-75"],
+    "groups": [],
     "best-runtime-beat": 51.72,
     "best-memory-beat": 36.62
 }
