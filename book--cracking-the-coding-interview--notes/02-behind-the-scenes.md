@@ -101,6 +101,27 @@ The final approval process will include all interviewers with the VP having veto
 ## The Facebook (Meta) Interview
 The interviewing process starts with 1-2 phone screenings.
 Typically these will include a coding portion in a shared editor.
+You may be given a programming assignment involving algorithms and cleaniness.
+
+Onsite interviews will consist of hiring managers and other software engineers.
+Each interviewer will focus on a specific topic (ie: behavioral, coding/algorithms, design/architecture).
+With these questions, you might be required to discuss different solutions and their tradeoffs.
+Interviews will independently submit written feedback.
+
+The interviewing team and the hiring manager will get together for the final decision.
 
 
 ## The Palantir Interview
+Palantir will interview candidates for specific teams from the start.
+Your application may be rerouted to a different team if you may be a better applicant for them.
+
+The interviewing process starts with two phone interviews (30-45 minutes).
+These will focus on your prior experience and some algorithmic problems.
+You may be given a take-home assignment, especially for those in school.
+Assignments will likely be from [Hacker Rank](https://www.hackerrank.com/) and will be difficult questions.
+
+Onsite, applicants will be interviewed by up to 5 people.
+Topics will include prior experience, knowledge relevant for the role and team, data structures, algorithms, and design.
+You may be given the chance to demo some Palantir products. Be sure to have an engaging conversation.
+
+The interviewing team and the hiring manager will get together for the final decision.
