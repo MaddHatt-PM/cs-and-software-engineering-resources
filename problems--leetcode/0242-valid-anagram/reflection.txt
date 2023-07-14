@@ -1,0 +1,1 @@
+Counter from the collections package behaves like a dictionary where the value is incremented when a matching key is found. Length comparison is used for a quick checker.

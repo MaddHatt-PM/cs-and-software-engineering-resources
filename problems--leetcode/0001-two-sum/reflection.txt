@@ -1,0 +1,6 @@
+With my original solution:
+I knew I needed a hashmap but I wasn't sure where to use it.
+Since there is only one exact solution per call, if a number appeared twice, I could test it to get that edge case out of the way.
+
+With my improved solution:
+Turns out the best scenario to do test is during the loop that is building the set.
