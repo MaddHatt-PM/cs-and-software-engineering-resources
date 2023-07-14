@@ -1,0 +1,2 @@
+Turns out a dictionary cannot be natively hashed in python.
+Instead of using a Counter dict, I used sorting to create the keys of my dictionary.

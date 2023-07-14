@@ -1,0 +1,1 @@
+Classic stack problem. Optimized it a bit further by using a dictionary for the matching pairs.

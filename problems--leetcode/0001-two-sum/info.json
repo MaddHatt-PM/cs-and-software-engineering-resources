@@ -1,0 +1,9 @@
+{
+    "id": 1,
+    "difficulty": "easy",
+    "solve-date": "7-12-2023",
+    "tags": ["Array", "Hash Table"],
+    "groups": ["neetcode-arrays-and-hashing"],
+    "best-runtime-beat": 77.68,
+    "best-memory-beat": 85.23
+}
