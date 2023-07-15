@@ -1,0 +1,2 @@
+The quickest and most memory efficient option would be to keep a single list that acts similar to a stack. When getMin() is called, it only needs to call min on the list at O(n) time complexity.
+An elegant solution is to create a second stack that keeps track of the minimum value at every state change. This allows O(1) speed at the cost of double the memory of the original stack.
