@@ -1,0 +1,9 @@
+{
+    "id": 345,
+    "difficulty": "easy",
+    "solve-date": "7-15-2023",
+    "tags": ["Two Pointers", "String"],
+    "groups": ["neetcode-arrays-and-hashing"],
+    "best-runtime-beat": 95.42,
+    "best-memory-beat": 16.72
+}

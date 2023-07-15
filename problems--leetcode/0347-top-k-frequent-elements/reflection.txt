@@ -1,0 +1,3 @@
+My initial approach was to count occurrences into a (key, occurrences) tuple, sort, and slice k items.
+My improved solution was to investigate the heapq module from python.
+I think I need more experience with that module.

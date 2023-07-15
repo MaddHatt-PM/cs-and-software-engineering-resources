@@ -1,0 +1,9 @@
+{
+    "id": 347,
+    "difficulty": "medium",
+    "solve-date": "7-15-2023",
+    "tags": ["Array", "Math", "Stack"],
+    "groups": ["neetcode-stack"],
+    "best-runtime-beat": 93.61,
+    "best-memory-beat": 92.38
+}

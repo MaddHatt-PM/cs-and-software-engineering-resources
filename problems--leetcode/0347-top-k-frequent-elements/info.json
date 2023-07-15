@@ -1,0 +1,9 @@
+{
+    "id": 347,
+    "difficulty": "medium",
+    "solve-date": "7-15-2023",
+    "tags": ["Array", "Hash Table", "Divide and Conquer", "Sorting", "Heap (Priority Queue)", "Bucket Sort", "Counting", "Quickselect"],
+    "groups": ["neetcode-arrays-and-hashing"],
+    "best-runtime-beat": 93.61,
+    "best-memory-beat": 92.38
+}

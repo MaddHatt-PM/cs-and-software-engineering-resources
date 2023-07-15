@@ -3,7 +3,7 @@
     "difficulty": "easy",
     "solve-date": "7-13-2023",
     "tags": ["String", "Stack"],
-    "groups": ["neetcode-arrays-and-hashing"],
+    "groups": ["neetcode-stack"],
     "best-runtime-beat": 77.4,
     "best-memory-beat": 54.46
 }

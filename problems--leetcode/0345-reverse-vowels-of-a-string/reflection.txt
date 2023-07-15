@@ -1,0 +1,3 @@
+For checking if an object is apart of a collection, sets are slightly faster than lists in python.
+However, they are slower to iterate over in the average case.
+The time complexity of this is O(N+M) where M is the number of vowels.

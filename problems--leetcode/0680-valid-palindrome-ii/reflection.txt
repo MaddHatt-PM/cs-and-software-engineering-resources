@@ -1,0 +1,3 @@
+Did not realize that the input did not need to be cleaned checking for the palindrome.
+Python slices proved to be more time efficient at the cost of time.
+For a focus on space complexity, a helper function to loop through the two possibly removed characters would make the space complexity O(N) instead of O(3N).

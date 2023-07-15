@@ -3,7 +3,7 @@
     "difficulty": "medium",
     "solve-date": "7-14-2023",
     "tags": ["Stack", "Design"],
-    "groups": ["neetcode-arrays-and-hashing"],
+    "groups": ["neetcode-stack"],
     "best-runtime-beat": 0,
     "best-memory-beat": 0
 }
