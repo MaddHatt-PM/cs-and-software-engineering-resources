@@ -1,0 +1,9 @@
+{
+    "id": 680,
+    "difficulty": "easy",
+    "solve-date": "7-15-2023",
+    "tags": ["Two Points", "String", "Greedy"],
+    "groups": [],
+    "best-runtime-beat": 74.28,
+    "best-memory-beat": 41.54
+}

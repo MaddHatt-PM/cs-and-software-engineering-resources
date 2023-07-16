@@ -1,0 +1,4 @@
+I definitely overcomplicated this problem due to the soft time complexity constraint.
+As I thought any usage of set would disqualify myself as it is a O(N) operation.
+However, any iteration on the set would be O(N+M) with a worse case of M=N so O(2N).
+Since constants are removed, O(2N) would be O(N). 

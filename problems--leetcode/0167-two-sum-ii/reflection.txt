@@ -1,0 +1,2 @@
+While my initial approach was avoid a straight forward dual pointer iteration, I opted for a binary search.
+As the length of the input array grows, the dual pointer would end up being faster anyways.

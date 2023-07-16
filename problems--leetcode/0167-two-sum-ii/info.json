@@ -1,0 +1,9 @@
+{
+    "id": 167,
+    "difficulty": "medium",
+    "solve-date": "7-16-2023",
+    "tags": ["Array", "Two Pointers", "Binary Search"],
+    "groups": ["leetcode-two-pointers"],
+    "best-runtime-beat": 99.23,
+    "best-memory-beat": 61.77
+}
