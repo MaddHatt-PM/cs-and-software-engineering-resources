@@ -1,0 +1,9 @@
+{
+    "id": 143,
+    "difficulty": "medium",
+    "solve-date": "7-16-2023",
+    "tags": ["Linked List", "Two Pointers", "Stack", "Recursion"],
+    "groups": [],
+    "best-runtime-beat": 89.52,
+    "best-memory-beat": 47.63
+}

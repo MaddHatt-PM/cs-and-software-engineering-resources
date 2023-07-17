@@ -1,0 +1,2 @@
+I should improve with LinkedList operations.
+I should be able to recall the standard forms quickly.

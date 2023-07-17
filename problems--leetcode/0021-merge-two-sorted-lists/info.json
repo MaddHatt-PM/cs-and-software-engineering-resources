@@ -1,0 +1,9 @@
+{
+    "id": 21,
+    "difficulty": "easy",
+    "solve-date": "7-15-2023",
+    "tags": ["Linked List", "Recursion"],
+    "groups": ["neetcode-linked-lists"],
+    "best-runtime-beat": 88.70,
+    "best-memory-beat": 53.70
+}

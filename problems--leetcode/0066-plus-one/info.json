@@ -1,0 +1,9 @@
+{
+    "id": 66,
+    "difficulty": "easy",
+    "solve-date": "7-16-2023",
+    "tags": ["Array", "Math"],
+    "groups": ["neetcode-math-and-geometry"],
+    "best-runtime-beat": 95.47,
+    "best-memory-beat": 70.44
+}
