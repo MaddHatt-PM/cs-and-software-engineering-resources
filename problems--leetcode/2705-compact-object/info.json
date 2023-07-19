@@ -1,0 +1,9 @@
+{
+    "id": 2705,
+    "difficulty": "medium",
+    "solve-date": "7-18-2023",
+    "tags": [],
+    "groups": ["30-days-of-javascript"],
+    "best-runtime-beat": 93.23,
+    "best-memory-beat": 89.10
+}

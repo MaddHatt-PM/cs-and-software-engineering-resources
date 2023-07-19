@@ -1,0 +1,9 @@
+{
+    "id": 74,
+    "difficulty": "medium",
+    "solve-date": "7-19-2023",
+    "tags": ["Array", "Binary Search", "Matrix"],
+    "groups": ["neetcode-binary-search"],
+    "best-runtime-beat": 58.94,
+    "best-memory-beat": 66.61
+}
