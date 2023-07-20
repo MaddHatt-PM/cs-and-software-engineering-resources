@@ -1,0 +1,1 @@
+By iterating through the array once to accumulate values in the left direction and then iterating through the array again to accumulate values in the right direction, then the problem becomes pretty straightforward. I do not a second array for the right values if I choose to accumulate with just a variable.
