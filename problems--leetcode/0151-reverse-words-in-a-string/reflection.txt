@@ -1,0 +1,2 @@
+Two Pointer was intended by at first I tried using a List Comprehension.
+After getting a high score, I found out that .split automatically removes trailing, leading, and multiple spaces.
