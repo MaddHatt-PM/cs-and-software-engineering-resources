@@ -1,0 +1,3 @@
+Standard iterate through problem.
+Some results were faster with max(acc_array).
+These likely only work in Python as this might be another iteration loop in other languages.
