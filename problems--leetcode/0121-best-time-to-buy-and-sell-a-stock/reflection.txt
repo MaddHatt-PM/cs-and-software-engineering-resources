@@ -1,0 +1,2 @@
+The sliding window finds the smallest value and then finds the greatest difference.
+Interesting detail: Since max() and min() use an iterator instead of an if-statement, its good to use an if-statement for some quick performance.
