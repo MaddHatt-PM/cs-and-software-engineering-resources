@@ -1,0 +1,9 @@
+{
+    "id": 121,
+    "difficulty": "easy",
+    "solve-date": "7-22-2023",
+    "tags": ["Array", "Dynamic Programming"],
+    "groups": ["neetcode-sliding-window"],
+    "best-runtime-beat": 82.19,
+    "best-memory-beat": 94.02
+}

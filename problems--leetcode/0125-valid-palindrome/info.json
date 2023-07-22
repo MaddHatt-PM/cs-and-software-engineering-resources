@@ -2,8 +2,8 @@
     "id": 125,
     "difficulty": "easy",
     "solve-date": "7-15-2023",
-    "tags": ["String", "Two Points"],
-    "groups": ["neetcode-two-points"],
+    "tags": ["String", "Two Pointers"],
+    "groups": ["neetcode-two-pointers"],
     "best-runtime-beat": 97.35,
     "best-memory-beat": 24.9
 }
