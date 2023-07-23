@@ -12,4 +12,4 @@ Example matrix:
 
 Given the following properties, we can binary search with the range of each vector row and then binary search through the row.
 For the range binary search, we will need to compare the endpoints of each vector row to determine which way to go.
-Therefore, our algorithm will have a O(log m + log n).
+Therefore, our algorithm will have a O(log m * log n).

@@ -1,0 +1,9 @@
+{
+    "id": 724,
+    "difficulty": "medium",
+    "solve-date": "7-20-2023",
+    "tags": ["Array", "Prefix Sum"],
+    "groups": ["leetcode-75"],
+    "best-runtime-beat": 81.45,
+    "best-memory-beat": 74.53
+}

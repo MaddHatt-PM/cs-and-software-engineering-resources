@@ -1,0 +1,3 @@
+At first I used a second array of accumulated values from the right index.
+I simplified it down to an int value as I could sum the array and then subtract as I iterate from the left side.
+sum() uses a loop of O(N) underneath but the int approach uses O(1) space.
