@@ -1,0 +1,1 @@
+Good to know that tuples are hashable in python.
