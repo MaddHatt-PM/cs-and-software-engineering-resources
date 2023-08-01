@@ -1,0 +1,9 @@
+{
+    "id": 11,
+    "difficulty": "medium",
+    "solve-date": "7-24-2023",
+    "tags": ["Array", "Two Pointer", "Greedy"],
+    "groups": [],
+    "best-runtime-beat": 89.45,
+    "best-memory-beat": 60.14
+}

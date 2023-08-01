@@ -1,0 +1,2 @@
+Two pointer approach where only the pointer with the lower height moves.
+It doesn't really matter which pointer moves when both heights are the same.
