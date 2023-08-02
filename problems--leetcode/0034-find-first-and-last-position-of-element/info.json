@@ -1,0 +1,9 @@
+{
+    "id": 32,
+    "difficulty": "medium",
+    "solve-date": "8-2-2023",
+    "tags": ["Array", "Binary Search"],
+    "groups": [],
+    "best-runtime-beat": 88.70,
+    "best-memory-beat": 53.70
+}
