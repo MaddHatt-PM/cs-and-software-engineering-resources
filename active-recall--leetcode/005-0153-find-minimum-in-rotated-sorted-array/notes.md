@@ -18,7 +18,7 @@ If our $m$ is larger than our $r$, our minimum value should be in the range of $
 class Solution():
     def findMinInSorted(nums:List[int]):
         res = nums[0]
-        l, r = 0, len(nums)
+        l, r = 0, len(nums)-1
 
         while l <= r:
             if nums[l] < nums[r]:
