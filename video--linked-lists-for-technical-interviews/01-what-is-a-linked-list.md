@@ -1,8 +1,10 @@
 # Key Terms:
 __Node__:
   A container of data.  
-__Linked-List__:
-  A collection of nodes such that there are links from one node to another where each node points to at most one other node. The last node must link to null. As such, this data structure is referred to as an `ordered data structure`.  
+__Linked List__:
+  A collection of nodes such that there are links from one node to another. The last node must link to null. As such, this data structure is referred to as an `ordered data structure`.  
+__Singly Linked List__: A linked list where every node is linked to at most one other node, also known as the next node in the sequence.  
+__Doubly Linked List__: A linked list where every node is linked to at most two nodes. For a linear sequence, each node has a link to the previous node in the sequence and the next node in the sequence.  
 __Head__:
   The node at the very start of a linked list.  
 __Tail__:
