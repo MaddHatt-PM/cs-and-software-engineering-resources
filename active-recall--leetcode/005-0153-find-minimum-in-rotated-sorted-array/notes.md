@@ -26,6 +26,7 @@ class Solution():
                 break
 
             m = (l + r) // 2
+            res = min(res, nums[m])
             if nums[m] >= nums[l]:
                 l = m + 1
             else:

@@ -1,0 +1,9 @@
+{
+    "id": 28,
+    "difficulty": "easy",
+    "solve-date": "8-6-2023",
+    "tags": ["Two Pointers", "String", "String Matching"],
+    "groups": [],
+    "best-runtime-beat": 94.00,
+    "best-memory-beat": 70.19
+}

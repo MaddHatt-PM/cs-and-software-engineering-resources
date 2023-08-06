@@ -1,0 +1,1 @@
+Typical two pointer problem. Noticed others that used string slicing and comparisons. While shorter code, their time complexity was increased as each string comparison is $O(n)$, which leads to a worst case of $O(n^2)$. The worst case for two pointer approach is $O(n * m)$ where $n$ is the length of haystack and $m$ is thr length of needle.
