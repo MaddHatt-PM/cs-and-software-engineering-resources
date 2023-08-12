@@ -1,0 +1,9 @@
+{
+    "id": 518,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Array", "Dynamic Programming"],
+    "groups": [],
+    "best-runtime-beat": 66.10,
+    "best-memory-beat": 64.46
+}

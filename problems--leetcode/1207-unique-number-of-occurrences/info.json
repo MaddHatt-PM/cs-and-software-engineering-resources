@@ -1,0 +1,9 @@
+{
+    "id": 1207,
+    "difficulty": "easy",
+    "solve-date": "8-10-2023",
+    "tags": ["Array", "Hash Table"],
+    "groups": [],
+    "best-runtime-beat": 96.67,
+    "best-memory-beat": 84.15
+}

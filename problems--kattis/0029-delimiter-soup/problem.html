@@ -1,0 +1,283 @@
+<div class="book-page-fixed_width">
+    <div id="instructions-close" class="book-close"><i class="fas fa-chevron-left book-close-icon"></i>Hide</div>
+    <h1 class="book-page-heading">Delimiter Soup</h1>
+
+    <div class="problembody">
+        <div style="width:30.00%" class="illustration">
+            <img src="/problems/delimitersoup/file/statement/en/img-0001.jpg"
+                alt="/problems/delimitersoup/file/statement/en/img-0001.jpg" class="illustration">
+            <div class="description">
+                Photo by <a href="https://www.flickr.com/photos/juditk/3851311863">Judit
+                    Klein</a>
+            </div>
+        </div>
+        <p>Whenever a programmer starts to learn a Lisp, they think
+            that there are too many parentheses in it. Sophia thinks there
+            are too few, so she is making a programming language with only
+            parentheses. To spice it up a bit, she is also adding square
+            brackets (‘<tt class="ttfamily">[]</tt>’) and curly braces
+            (‘<tt class="ttfamily">{}</tt>’) to the language.</p>
+        <p>Right now, she is struggling to make people use it for
+            production code. Obviously, it has to be because of the bad
+            error messages you get when you mess up the delimiters! Right
+            now, you only get the error message ‘<tt class="ttfamily">syntax error</tt>’ when you mess them up.</p>
+        <p>Any opening delimiter must be closed by the same type of
+            delimiter: ‘<tt class="ttfamily">(</tt>’ is closed with
+            ‘<tt class="ttfamily">)</tt>’, ‘<tt class="ttfamily">[</tt>’ is
+            closed by ‘<tt class="ttfamily">]</tt>’, etc.</p>
+        <p>Sophia wants to improve the error message so that you at
+            least get some help finding out where it all went wrong.</p>
+        <h2>Input</h2>
+        <p>The input consists of two lines. The first line contains an
+            integer <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="0">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mo class="mjx-n">
+                            <mjx-c class="mjx-c7C"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D43F TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n">
+                            <mjx-c class="mjx-c7C"></mjx-c>
+                        </mjx-mo>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mo stretchy="false">|</mo>
+                            <mi>L</mi>
+                            <mo stretchy="false">|</mo>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>, the length
+            of the next line. The next line contains <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="1">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D43F TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>L</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>, the program you want to
+            validate.</p>
+        <h2>Output</h2>
+        <p>Output the character and the <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="2">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>0</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>-indexed location of the first
+            closing delimiter that does not match with the opening
+            delimiter.</p>
+        <p>If there are no errors, or there are more opening delimiters
+            than closing delimiters, print ‘<tt class="ttfamily">ok so
+                far</tt>’ instead.</p>
+        <h2>Limits</h2>
+        <ul class="itemize">
+            <li>
+                <p><span class="tex2jax_process">
+                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                            style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="3">
+                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                <mjx-mn class="mjx-n">
+                                    <mjx-c class="mjx-c31"></mjx-c>
+                                </mjx-mn>
+                                <mjx-mo class="mjx-n" space="4">
+                                    <mjx-c class="mjx-c2264"></mjx-c>
+                                </mjx-mo>
+                                <mjx-texatom space="4" texclass="ORD">
+                                    <mjx-mo class="mjx-n">
+                                        <mjx-c class="mjx-c7C"></mjx-c>
+                                    </mjx-mo>
+                                </mjx-texatom>
+                                <mjx-mi class="mjx-i">
+                                    <mjx-c class="mjx-c1D43F TEX-I"></mjx-c>
+                                </mjx-mi>
+                                <mjx-texatom texclass="ORD">
+                                    <mjx-mo class="mjx-n">
+                                        <mjx-c class="mjx-c7C"></mjx-c>
+                                    </mjx-mo>
+                                </mjx-texatom>
+                                <mjx-mo class="mjx-n" space="4">
+                                    <mjx-c class="mjx-c2264"></mjx-c>
+                                </mjx-mo>
+                                <mjx-mn class="mjx-n" space="4">
+                                    <mjx-c class="mjx-c32"></mjx-c>
+                                    <mjx-c class="mjx-c30"></mjx-c>
+                                    <mjx-c class="mjx-c30"></mjx-c>
+                                </mjx-mn>
+                            </mjx-math>
+                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mn>1</mn>
+                                    <mo>≤</mo>
+                                    <mrow data-mjx-texclass="ORD">
+                                        <mo stretchy="false">|</mo>
+                                    </mrow>
+                                    <mi>L</mi>
+                                    <mrow data-mjx-texclass="ORD">
+                                        <mo stretchy="false">|</mo>
+                                    </mrow>
+                                    <mo>≤</mo>
+                                    <mn>200</mn>
+                                </math></mjx-assistive-mml>
+                        </mjx-container>
+                    </span></p>
+            </li>
+            <li>
+                <p><span class="tex2jax_process">
+                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                            style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="4">
+                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                <mjx-mi class="mjx-i">
+                                    <mjx-c class="mjx-c1D43F TEX-I"></mjx-c>
+                                </mjx-mi>
+                            </mjx-math>
+                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mi>L</mi>
+                                </math></mjx-assistive-mml>
+                        </mjx-container>
+                    </span> contains only
+                    the characters ‘<tt>()[]{}</tt>’ and spaces</p>
+            </li>
+            <li>
+                <p><span class="tex2jax_process">
+                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                            style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="5">
+                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                <mjx-mi class="mjx-i">
+                                    <mjx-c class="mjx-c1D43F TEX-I"></mjx-c>
+                                </mjx-mi>
+                            </mjx-math>
+                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                    <mi>L</mi>
+                                </math></mjx-assistive-mml>
+                        </mjx-container>
+                    </span> does not start
+                    with a space character</p>
+            </li>
+        </ul>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 1</th>
+                    <th>Sample Output 1</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>8
+([] [] ]
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>] 7
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 2</th>
+                    <th>Sample Output 2</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>13
+(([] [[]] ())
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>ok so far
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 3</th>
+                    <th>Sample Output 3</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>21
+[ { { () () () () } ]
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>] 20
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 4</th>
+                    <th>Sample Output 4</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>27
+[ { [[()]] (({})) } ] () {}
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>ok so far
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 5</th>
+                    <th>Sample Output 5</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>19
+[[]] () ) [] {{}} {
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>) 8
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

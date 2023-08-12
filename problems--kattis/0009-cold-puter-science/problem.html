@@ -1,0 +1,231 @@
+<div class="book-page-fixed_width">
+    <div id="instructions-close" class="book-close"><i class="fas fa-chevron-left book-close-icon"></i>Hide</div>
+    <h1 class="book-page-heading">Cold-puter Science</h1>
+
+    <div class="problembody">
+        <p>We’re not going to sugar-coat it: Chicago’s winters can be
+            rough. The temperatures sometimes dip to uncomfortable levels
+            and, after last year’s “polar vortex”, the University of
+            Chicago Weather Service wants to find out exactly how bad the
+            winter was. More specifically, they are interested in knowing
+            the total number of days in which the temperature was below
+            zero degrees Celsius.</p>
+
+        <h2>Input</h2>
+
+        <p>The input is composed of two lines. The first line contains
+            a single positive integer <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="0">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>n</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> (<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="1">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i" space="4">
+                            <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>1</mn>
+                            <mo>≤</mo>
+                            <mi>n</mi>
+                            <mo>≤</mo>
+                            <mn>100</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>) that specifies the number of
+            temperatures collected by the University of Chicago Weather
+            Service. The second line contains <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="2">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>n</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> temperatures, each separated by a
+            single space. Each temperature is represented by an integer
+            <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="3">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>t</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> (<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="4">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mo class="mjx-n">
+                            <mjx-c class="mjx-c2212"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mstyle>
+                            <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                        </mjx-mstyle>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mstyle>
+                            <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                        </mjx-mstyle>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i" space="4">
+                            <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mstyle>
+                            <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                        </mjx-mstyle>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mstyle>
+                            <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                        </mjx-mstyle>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mo>−</mo>
+                            <mn>1</mn>
+                            <mstyle scriptlevel="0">
+                                <mspace width="0.167em"></mspace>
+                            </mstyle>
+                            <mn>000</mn>
+                            <mstyle scriptlevel="0">
+                                <mspace width="0.167em"></mspace>
+                            </mstyle>
+                            <mn>000</mn>
+                            <mo>≤</mo>
+                            <mi>t</mi>
+                            <mo>≤</mo>
+                            <mn>1</mn>
+                            <mstyle scriptlevel="0">
+                                <mspace width="0.167em"></mspace>
+                            </mstyle>
+                            <mn>000</mn>
+                            <mstyle scriptlevel="0">
+                                <mspace width="0.167em"></mspace>
+                            </mstyle>
+                            <mn>000</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>)
+        </p>
+
+        <h2>Output</h2>
+
+        <p>You must print a single integer: the number of temperatures
+            strictly less than zero.</p>
+
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 1</th>
+
+                    <th>Sample Output 1</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <pre>3
+5 -10 15
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+
+                    <td>
+                        <pre>1
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 2</th>
+
+                    <th>Sample Output 2</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <pre>5
+-14 -5 -39 -5 -7
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+
+                    <td>
+                        <pre>5
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

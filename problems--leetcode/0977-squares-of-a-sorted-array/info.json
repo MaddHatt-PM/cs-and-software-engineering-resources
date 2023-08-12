@@ -1,0 +1,9 @@
+{
+    "id": 977,
+    "difficulty": "easy",
+    "solve-date": "8-10-2023",
+    "tags": ["Array", "Two Pointers", "Sorting"],
+    "groups": [],
+    "best-runtime-beat": 78.81,
+    "best-memory-beat": 68.52
+}

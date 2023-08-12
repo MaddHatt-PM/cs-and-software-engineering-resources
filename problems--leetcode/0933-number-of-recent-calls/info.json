@@ -1,0 +1,9 @@
+{
+    "id": 933,
+    "difficulty": "easy",
+    "solve-date": "8-11-2023",
+    "tags": ["Design", "Queue", "Data Stream"],
+    "groups": [],
+    "best-runtime-beat": 81.16,
+    "best-memory-beat": 30.53
+}

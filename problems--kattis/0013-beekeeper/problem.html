@@ -1,0 +1,179 @@
+<div class="book-page-fixed_width">
+    <h1 class="book-page-heading">Beekeeper</h1>
+
+    <div class="problembody">
+        <div style="width:25.00%" class="illustration">
+            <img src="/problems/beekeeper/file/statement/en/img-0001.png"
+                alt="/problems/beekeeper/file/statement/en/img-0001.png" class="illustration">
+
+            <div class="description"></div>
+        </div>It’s Bill the beekeeper again. In this problem, we learn
+        that didn’t choose his career for the best reason. Bill chose
+        to be a beekeeper because he really, really likes the look of
+        the double e’s in the word “beekeeper”. Your task is to help
+        identify other words Bill will really like.
+
+        <p>Bill’s affinity for a word is determined by how many pairs
+            of double vowels it has, where vowels are the letters
+            {a,e,i,o,u,y}. Given a list of words, find the word that has
+            the most pairs of double vowels, as it will be Bill’s favorite
+            word.</p>
+
+        <p>Notes:</p>
+
+        <ul class="itemize">
+            <li>
+                <p>It is guaranteed that there will be a unique correct
+                    answer. That is, one word in the list will have strictly
+                    more pairs of vowels than all other words in the list.</p>
+            </li>
+
+            <li>
+                <p>No word in the input will have three or more of the same
+                    vowel consecutively, because that would just be too much
+                    for poor Bill.</p>
+            </li>
+        </ul>
+
+        <h2>Input</h2>
+
+        <p>The input will contain multiple test cases, up to
+            <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="0">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>10</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>. The first line of
+            each case contains <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="1">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>N</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>,
+            the number of words in that case (<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="2">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c3C"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i" space="4">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>0</mn>
+                            <mo>&lt;</mo>
+                            <mi>N</mi>
+                            <mo>≤</mo>
+                            <mn>1000</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>). The next
+            <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="3">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>N</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> lines will contain the
+            words that make up that case. Each word will contain only
+            lowercase English letters <tt class="ttfamily">[a-z]</tt>, and
+            no word will be longer than <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="4">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c38"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>80</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> characters. Words will not
+            necessarily be actual English words, but they will contain at
+            least one letter. The input will be terminated by a line
+            containing a single zero.
+        </p>
+
+        <h2>Output</h2>
+
+        <p>For each case, print Bill’s favorite word. Each output
+            should be printed on its own line.</p>
+
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 1</th>
+
+                    <th>Sample Output 1</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <pre>4
+artist
+engineer
+beekeeper
+programmer
+3
+bookkatt
+jailaikia
+yeehaaw
+0
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+
+                    <td>
+                        <pre>beekeeper
+yeehaaw
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

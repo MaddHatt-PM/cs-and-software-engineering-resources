@@ -1,0 +1,911 @@
+<div class="book-page-fixed_width">
+    <div id="instructions-close" class="book-close"><i class="fas fa-chevron-left book-close-icon"></i>Hide</div>
+    <h1 class="book-page-heading">Basic Programming 2</h1>
+
+    <div class="problembody">
+        <p>You think you can code?<br>
+            This problem will test you on various basic programming
+            techniques.<br>
+            You are given two integers <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="0">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>N</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> and <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="1">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>t</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>; and then an array <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="2">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>A</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> of <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="3">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>N</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> integers (<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="4">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>0</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>-based indexing).<br>
+            Based on the value of <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="5">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>t</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>,
+            you will perform an action on <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="6">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>A</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>.</p>
+        <div class="table">
+            <center>
+                <table class="tabular" cellspacing="0">
+                    <tbody>
+                        <tr>
+                            <td
+                                style="border-top-style:solid; border-top-color:black; border-top-width:1px; text-align:center; border-right:1px solid black">
+                                <p><span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="7">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>t</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span></p>
+                            </td>
+                            <td
+                                style="border-top-style:solid; border-top-color:black; border-top-width:1px; text-align:left">
+                                <p>Action Needed</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="border-top-style:solid; border-top-color:black; border-top-width:1px; text-align:center; border-right:1px solid black">
+                                <p><span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="8">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c31"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mn>1</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span></p>
+                            </td>
+                            <td
+                                style="border-top-style:solid; border-top-color:black; border-top-width:1px; text-align:left">
+                                <p>Print “<tt class="ttfamily">Yes</tt>” if there are
+                                    two integers <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="9">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D465 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                                <mjx-mo class="mjx-n" space="4">
+                                                    <mjx-c class="mjx-c2208"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mi class="mjx-i" space="4">
+                                                    <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>x</mi>
+                                                    <mo>∈</mo>
+                                                    <mi>A</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> and <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="10">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D466 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                                <mjx-mo class="mjx-n" space="4">
+                                                    <mjx-c class="mjx-c2208"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mi class="mjx-i" space="4">
+                                                    <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>y</mi>
+                                                    <mo>∈</mo>
+                                                    <mi>A</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> such that <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="11">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D465 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                                <mjx-mo class="mjx-n" space="4">
+                                                    <mjx-c class="mjx-c2260"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mi class="mjx-i" space="4">
+                                                    <mjx-c class="mjx-c1D466 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>x</mi>
+                                                    <mo>≠</mo>
+                                                    <mi>y</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> and <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="12">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D465 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                                <mjx-mo class="mjx-n" space="3">
+                                                    <mjx-c class="mjx-c2B"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mi class="mjx-i" space="3">
+                                                    <mjx-c class="mjx-c1D466 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                                <mjx-mo class="mjx-n" space="4">
+                                                    <mjx-c class="mjx-c3D"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mn class="mjx-n" space="4">
+                                                    <mjx-c class="mjx-c37"></mjx-c>
+                                                </mjx-mn>
+                                                <mjx-mstyle>
+                                                    <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                                                </mjx-mstyle>
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c37"></mjx-c>
+                                                    <mjx-c class="mjx-c37"></mjx-c>
+                                                    <mjx-c class="mjx-c37"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>x</mi>
+                                                    <mo>+</mo>
+                                                    <mi>y</mi>
+                                                    <mo>=</mo>
+                                                    <mn>7</mn>
+                                                    <mstyle scriptlevel="0">
+                                                        <mspace width="0.167em"></mspace>
+                                                    </mstyle>
+                                                    <mn>777</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span>,</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                &nbsp;</td>
+                            <td style="text-align:left">
+                                <p>or “<tt class="ttfamily">No</tt>” otherwise
+                                    (without the quotes)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                <p><span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="13">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c32"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mn>2</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span></p>
+                            </td>
+                            <td style="text-align:left">
+                                <p>Print “<tt class="ttfamily">Unique</tt>” if all
+                                    integers in <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="14">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>A</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span>
+                                    are different;</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                &nbsp;</td>
+                            <td style="text-align:left">
+                                <p>or print “<tt class="ttfamily">Contains
+                                        duplicate</tt>” otherwise (without the quotes)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                <p><span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="15">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c33"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mn>3</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span></p>
+                            </td>
+                            <td style="text-align:left">
+                                <p>Find and print the integer that appears
+                                    <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="16">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mo class="mjx-n">
+                                                    <mjx-c class="mjx-c3E"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mfrac space="4">
+                                                    <mjx-frac>
+                                                        <mjx-num>
+                                                            <mjx-nstrut></mjx-nstrut>
+                                                            <mjx-mi class="mjx-i" size="s">
+                                                                <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                                                            </mjx-mi>
+                                                        </mjx-num>
+                                                        <mjx-dbox>
+                                                            <mjx-dtable>
+                                                                <mjx-line></mjx-line>
+                                                                <mjx-row>
+                                                                    <mjx-den>
+                                                                        <mjx-dstrut></mjx-dstrut>
+                                                                        <mjx-mn class="mjx-n" size="s">
+                                                                            <mjx-c class="mjx-c32"></mjx-c>
+                                                                        </mjx-mn>
+                                                                    </mjx-den>
+                                                                </mjx-row>
+                                                            </mjx-dtable>
+                                                        </mjx-dbox>
+                                                    </mjx-frac>
+                                                </mjx-mfrac>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mo>&gt;</mo>
+                                                    <mfrac>
+                                                        <mi>N</mi>
+                                                        <mn>2</mn>
+                                                    </mfrac>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> times in <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="17">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>A</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span>;
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                &nbsp;</td>
+                            <td style="text-align:left">
+                                <p>or print <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="18">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mo class="mjx-n">
+                                                    <mjx-c class="mjx-c2212"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c31"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mo>−</mo>
+                                                    <mn>1</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span>
+                                    if such integer cannot be found</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                <p><span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="19">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c34"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mn>4</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span></p>
+                            </td>
+                            <td style="text-align:left">
+                                <p>Find and print the median integer of <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="20">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>A</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> if <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="21">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>N</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> is odd;</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                &nbsp;</td>
+                            <td style="text-align:left">
+                                <p>or print both median integers of <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="22">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>A</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> if <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="23">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>N</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> is even (separate them
+                                    with a single space)</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td style="text-align:center; border-right:1px solid black">
+                                <p><span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="24">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c35"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mn>5</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span></p>
+                            </td>
+                            <td style="text-align:left">
+                                <p>Print integers in <span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="25">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mi class="mjx-i">
+                                                    <mjx-c class="mjx-c1D434 TEX-I"></mjx-c>
+                                                </mjx-mi>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mi>A</mi>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span> that fall between a
+                                    range [<span class="tex2jax_process">
+                                        <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                                            style="font-size: 125.6%; position: relative;" tabindex="0"
+                                            ctxtmenu_counter="26">
+                                            <mjx-math class="MJX-TEX" aria-hidden="true">
+                                                <mjx-mn class="mjx-n">
+                                                    <mjx-c class="mjx-c31"></mjx-c>
+                                                    <mjx-c class="mjx-c30"></mjx-c>
+                                                    <mjx-c class="mjx-c30"></mjx-c>
+                                                </mjx-mn>
+                                                <mjx-mo class="mjx-n" space="2">
+                                                    <mjx-c class="mjx-c2026"></mjx-c>
+                                                </mjx-mo>
+                                                <mjx-mn class="mjx-n" space="2">
+                                                    <mjx-c class="mjx-c39"></mjx-c>
+                                                    <mjx-c class="mjx-c39"></mjx-c>
+                                                    <mjx-c class="mjx-c39"></mjx-c>
+                                                </mjx-mn>
+                                            </mjx-math>
+                                            <mjx-assistive-mml unselectable="on" display="inline"><math
+                                                    xmlns="http://www.w3.org/1998/Math/MathML">
+                                                    <mn>100</mn>
+                                                    <mo>…</mo>
+                                                    <mn>999</mn>
+                                                </math></mjx-assistive-mml>
+                                        </mjx-container>
+                                    </span>] in sorted order;</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td
+                                style="text-align:center; border-right:1px solid black; border-bottom-style:solid; border-bottom-color:black; border-bottom-width:1px">
+                                &nbsp;</td>
+                            <td
+                                style="text-align:left; border-bottom-style:solid; border-bottom-color:black; border-bottom-width:1px">
+                                <p>(print a single space between two integers)</p>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </div>
+        <h2>Input</h2>
+        <p>The first line of the input contains an integer <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="27">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>N</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> and <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="28">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>t</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> (<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="29">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c33"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i" space="4">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c32"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mstyle>
+                            <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                        </mjx-mstyle>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>3</mn>
+                            <mo>≤</mo>
+                            <mi>N</mi>
+                            <mo>≤</mo>
+                            <mn>200</mn>
+                            <mstyle scriptlevel="0">
+                                <mspace width="0.167em"></mspace>
+                            </mstyle>
+                            <mn>000</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>; <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="30">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i" space="4">
+                            <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c35"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>1</mn>
+                            <mo>≤</mo>
+                            <mi>t</mi>
+                            <mo>≤</mo>
+                            <mn>5</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>).<br>
+            The second line of the input contains <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="31">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D441 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>N</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> non-negative <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="32">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c33"></mjx-c>
+                            <mjx-c class="mjx-c32"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>32</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>-bit signed integers.</p>
+        <h2>Output</h2>
+        <p>For each test case, output the required answer based on the
+            value of <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="33">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D461 TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>t</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>.</p>
+        <h2>Scoring</h2>
+        <p>There are <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="34">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c32"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>20</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> hidden
+            test cases that test various requirements of this problem.<br>
+            All <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="35">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c32"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>20</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> test cases will
+            be tested.<br>
+            Each hidden test case worth <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="36">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c35"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>5</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> points (the <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="37">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c35"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>5</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> sample test cases below worth
+            <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="38">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>0</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> point).
+        </p>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 1</th>
+                    <th>Sample Output 1</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>7 1
+1 7770 3 4 5 6 7
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>Yes
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 2</th>
+                    <th>Sample Output 2</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>7 2
+1 2 3 4 5 6 7
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>Unique
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 3</th>
+                    <th>Sample Output 3</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>7 3
+1 1 1 1 2 2 2
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>1
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 4</th>
+                    <th>Sample Output 4</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>8 4
+8 1 4 3 6 7 5 2
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>4 5
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 5</th>
+                    <th>Sample Output 5</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>7 5
+210 999 1000 543 321 99 777
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>210 321 543 777 999
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

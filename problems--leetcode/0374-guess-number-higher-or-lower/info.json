@@ -1,0 +1,9 @@
+{
+    "id": 374,
+    "difficulty": "easy",
+    "solve-date": "8-11-2023",
+    "tags": ["Binary Search", "Interactive"],
+    "groups": [],
+    "best-runtime-beat": 98.31,
+    "best-memory-beat": 69.52
+}

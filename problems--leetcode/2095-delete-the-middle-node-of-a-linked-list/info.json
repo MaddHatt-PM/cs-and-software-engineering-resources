@@ -1,0 +1,9 @@
+{
+    "id": 2095,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Linked List", "Two Pointers"],
+    "groups": [],
+    "best-runtime-beat": 80.98,
+    "best-memory-beat": 96.27
+}

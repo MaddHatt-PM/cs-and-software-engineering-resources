@@ -1,0 +1,9 @@
+{
+    "id": 328,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Linked List"],
+    "groups": [],
+    "best-runtime-beat": 92.33,
+    "best-memory-beat": 56.94
+}

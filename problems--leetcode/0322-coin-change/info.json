@@ -1,0 +1,9 @@
+{
+    "id": 322,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Array", "Dynamic Programming", "Breadth-First Search"],
+    "groups": [],
+    "best-runtime-beat": 88.76,
+    "best-memory-beat": 55.31
+}

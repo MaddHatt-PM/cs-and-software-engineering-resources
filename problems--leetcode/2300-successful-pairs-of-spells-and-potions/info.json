@@ -1,0 +1,9 @@
+{
+    "id": 2300,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Array", "Two Pointers", "Binary Search", "Sorting"],
+    "groups": [],
+    "best-runtime-beat": 56.50,
+    "best-memory-beat": 85.69
+}

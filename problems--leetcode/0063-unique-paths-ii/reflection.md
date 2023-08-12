@@ -1,0 +1,1 @@
+Dynamic Programming: Initialize the top and left of the obstacle array and then iterate through the rest of the obstacles array.

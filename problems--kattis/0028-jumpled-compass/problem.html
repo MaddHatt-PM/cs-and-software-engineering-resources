@@ -1,0 +1,418 @@
+<div class="book-page-fixed_width">
+    <div id="instructions-close" class="book-close"><i class="fas fa-chevron-left book-close-icon"></i>Hide</div>
+    <h1 class="book-page-heading">Jumbled Compass</h1>
+
+    <div class="problembody">
+        <div style="width:44.50%" class="illustration">
+            <img src="/problems/compass/file/statement/en/img-0001.jpg"
+                alt="/problems/compass/file/statement/en/img-0001.jpg" class="illustration">
+
+            <div class="description">
+                cc-by NCPC&nbsp;2016
+            </div>
+        </div>Jonas is developing the JUxtaPhone and is tasked with
+        animating the compass needle. The API is simple: the compass
+        needle is currently in some direction
+        (between&nbsp;<span class="tex2jax_process">
+            <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="0">
+                <mjx-math class="MJX-TEX" aria-hidden="true">
+                    <mjx-mn class="mjx-n">
+                        <mjx-c class="mjx-c30"></mjx-c>
+                    </mjx-mn>
+                </mjx-math>
+                <mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mn>0</mn>
+                    </math></mjx-assistive-mml>
+            </mjx-container>
+        </span>
+        and&nbsp;<span class="tex2jax_process">
+            <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="1">
+                <mjx-math class="MJX-TEX" aria-hidden="true">
+                    <mjx-mn class="mjx-n">
+                        <mjx-c class="mjx-c33"></mjx-c>
+                        <mjx-c class="mjx-c35"></mjx-c>
+                        <mjx-c class="mjx-c39"></mjx-c>
+                    </mjx-mn>
+                </mjx-math>
+                <mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mn>359</mn>
+                    </math></mjx-assistive-mml>
+            </mjx-container>
+        </span> degrees,
+        with north being&nbsp;<span class="tex2jax_process">
+            <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="2">
+                <mjx-math class="MJX-TEX" aria-hidden="true">
+                    <mjx-mn class="mjx-n">
+                        <mjx-c class="mjx-c30"></mjx-c>
+                    </mjx-mn>
+                </mjx-math>
+                <mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mn>0</mn>
+                    </math></mjx-assistive-mml>
+            </mjx-container>
+        </span>,
+        east being&nbsp;<span class="tex2jax_process">
+            <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="3">
+                <mjx-math class="MJX-TEX" aria-hidden="true">
+                    <mjx-mn class="mjx-n">
+                        <mjx-c class="mjx-c39"></mjx-c>
+                        <mjx-c class="mjx-c30"></mjx-c>
+                    </mjx-mn>
+                </mjx-math>
+                <mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mn>90</mn>
+                    </math></mjx-assistive-mml>
+            </mjx-container>
+        </span>), and
+        is being animated by giving the degrees to spin it. If the
+        needle is pointing north, and you give the compass an input
+        of&nbsp;<span class="tex2jax_process">
+            <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="4">
+                <mjx-math class="MJX-TEX" aria-hidden="true">
+                    <mjx-mn class="mjx-n">
+                        <mjx-c class="mjx-c39"></mjx-c>
+                        <mjx-c class="mjx-c30"></mjx-c>
+                    </mjx-mn>
+                </mjx-math>
+                <mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mn>90</mn>
+                    </math></mjx-assistive-mml>
+            </mjx-container>
+        </span>, it will spin
+        clockwise (positive numbers mean clockwise direction) to stop
+        at east, whereas an input of&nbsp;<span class="tex2jax_process">
+            <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="5">
+                <mjx-math class="MJX-TEX" aria-hidden="true">
+                    <mjx-mo class="mjx-n">
+                        <mjx-c class="mjx-c2212"></mjx-c>
+                    </mjx-mo>
+                    <mjx-mn class="mjx-n">
+                        <mjx-c class="mjx-c34"></mjx-c>
+                        <mjx-c class="mjx-c35"></mjx-c>
+                    </mjx-mn>
+                </mjx-math>
+                <mjx-assistive-mml unselectable="on" display="inline"><math xmlns="http://www.w3.org/1998/Math/MathML">
+                        <mo>−</mo>
+                        <mn>45</mn>
+                    </math></mjx-assistive-mml>
+            </mjx-container>
+        </span> would spin it counterclockwise
+        to stop at north west.
+
+        <p>The compass gives the current direction the phone is
+            pointing and Jonas’ task is to animate the needle taking the
+            <em>shortest path</em> from the current needle direction to the
+            correct direction. Many <tt class="ttfamily">if</tt>s, moduli,
+            and even an arctan later, he is still not convinced his
+            <tt class="ttfamily">minimumDistance</tt> function is correct;
+            he calls you on the phone.
+        </p>
+
+        <h2>Input</h2>
+
+        <p>The first line of input contains an integer <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="6">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-msub>
+                            <mjx-mi class="mjx-i">
+                                <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                            </mjx-mi>
+                            <mjx-script style="vertical-align: -0.15em;">
+                                <mjx-mn class="mjx-n" size="s">
+                                    <mjx-c class="mjx-c31"></mjx-c>
+                                </mjx-mn>
+                            </mjx-script>
+                        </mjx-msub>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <msub>
+                                <mi>n</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> (<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="7">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-msub space="4">
+                            <mjx-mi class="mjx-i">
+                                <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                            </mjx-mi>
+                            <mjx-script style="vertical-align: -0.15em;">
+                                <mjx-mn class="mjx-n" size="s">
+                                    <mjx-c class="mjx-c31"></mjx-c>
+                                </mjx-mn>
+                            </mjx-script>
+                        </mjx-msub>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c33"></mjx-c>
+                            <mjx-c class="mjx-c35"></mjx-c>
+                            <mjx-c class="mjx-c39"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>0</mn>
+                            <mo>≤</mo>
+                            <msub>
+                                <mi>n</mi>
+                                <mn>1</mn>
+                            </msub>
+                            <mo>≤</mo>
+                            <mn>359</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>), the current
+            direction of the needle. The second line of input contains an
+            integer <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="8">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-msub>
+                            <mjx-mi class="mjx-i">
+                                <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                            </mjx-mi>
+                            <mjx-script style="vertical-align: -0.15em;">
+                                <mjx-mn class="mjx-n" size="s">
+                                    <mjx-c class="mjx-c32"></mjx-c>
+                                </mjx-mn>
+                            </mjx-script>
+                        </mjx-msub>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <msub>
+                                <mi>n</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>
+            (<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="9">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-msub space="4">
+                            <mjx-mi class="mjx-i">
+                                <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                            </mjx-mi>
+                            <mjx-script style="vertical-align: -0.15em;">
+                                <mjx-mn class="mjx-n" size="s">
+                                    <mjx-c class="mjx-c32"></mjx-c>
+                                </mjx-mn>
+                            </mjx-script>
+                        </mjx-msub>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c33"></mjx-c>
+                            <mjx-c class="mjx-c35"></mjx-c>
+                            <mjx-c class="mjx-c39"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>0</mn>
+                            <mo>≤</mo>
+                            <msub>
+                                <mi>n</mi>
+                                <mn>2</mn>
+                            </msub>
+                            <mo>≤</mo>
+                            <mn>359</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>), the
+            correct direction of the needle.</p>
+
+        <h2>Output</h2>
+
+        <p>Output the change in direction that would make the needle
+            spin the shortest distance from&nbsp;<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="10">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-msub>
+                            <mjx-mi class="mjx-i">
+                                <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                            </mjx-mi>
+                            <mjx-script style="vertical-align: -0.15em;">
+                                <mjx-mn class="mjx-n" size="s">
+                                    <mjx-c class="mjx-c31"></mjx-c>
+                                </mjx-mn>
+                            </mjx-script>
+                        </mjx-msub>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <msub>
+                                <mi>n</mi>
+                                <mn>1</mn>
+                            </msub>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> to&nbsp;<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="11">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-msub>
+                            <mjx-mi class="mjx-i">
+                                <mjx-c class="mjx-c1D45B TEX-I"></mjx-c>
+                            </mjx-mi>
+                            <mjx-script style="vertical-align: -0.15em;">
+                                <mjx-mn class="mjx-n" size="s">
+                                    <mjx-c class="mjx-c32"></mjx-c>
+                                </mjx-mn>
+                            </mjx-script>
+                        </mjx-msub>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <msub>
+                                <mi>n</mi>
+                                <mn>2</mn>
+                            </msub>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>. A positive change indicates
+            spinning the needle clockwise, and a negative change indicates
+            spinning the needle counter-clockwise. If the two input numbers
+            are diametrically opposed, the needle should travel clockwise.
+            I.e., in this case, output&nbsp;<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="12">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                            <mjx-c class="mjx-c38"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>180</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> rather than&nbsp;<span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="13">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mo class="mjx-n">
+                            <mjx-c class="mjx-c2212"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                            <mjx-c class="mjx-c38"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mo>−</mo>
+                            <mn>180</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>.</p>
+
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 1</th>
+
+                    <th>Sample Output 1</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <pre>315
+45
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+
+                    <td>
+                        <pre>90
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 2</th>
+
+                    <th>Sample Output 2</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <pre>180
+270
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+
+                    <td>
+                        <pre>90
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 3</th>
+
+                    <th>Sample Output 3</th>
+                </tr>
+
+                <tr>
+                    <td>
+                        <pre>45
+270
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+
+                    <td>
+                        <pre>-135
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

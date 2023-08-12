@@ -1,0 +1,9 @@
+{
+    "id": 334,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Array", "Greedy"],
+    "groups": [],
+    "best-runtime-beat": 82.59,
+    "best-memory-beat": 95.38
+}

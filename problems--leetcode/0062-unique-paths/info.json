@@ -1,0 +1,9 @@
+{
+    "id": 62,
+    "difficulty": "medium",
+    "solve-date": "8-12-2023",
+    "tags": ["Math", "Dynamic Programming", "Combinatorics"],
+    "groups": [],
+    "best-runtime-beat": 94.84,
+    "best-memory-beat": 50.17
+}

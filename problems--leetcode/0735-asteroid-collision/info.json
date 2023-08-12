@@ -1,0 +1,9 @@
+{
+    "id": 735,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Array", "Stack", "Simulation"],
+    "groups": [],
+    "best-runtime-beat": 98.00,
+    "best-memory-beat": 76.23
+}

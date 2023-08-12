@@ -1,0 +1,9 @@
+{
+    "id": 199,
+    "difficulty": "medium",
+    "solve-date": "8-11-2023",
+    "tags": ["Tree", "Depth-First Search", "Breadth-First Search", "Binary Tree"],
+    "groups": [],
+    "best-runtime-beat": 92.85,
+    "best-memory-beat": 43.74
+}
