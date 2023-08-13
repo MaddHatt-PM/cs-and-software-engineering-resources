@@ -1,0 +1,9 @@
+{
+    "id": 63,
+    "difficulty": "medium",
+    "solve-date": "8-12-2023",
+    "tags": ["Math", "Dynamic Programming", "Matrix"],
+    "groups": [],
+    "best-runtime-beat": 65.80,
+    "best-memory-beat": 97.55
+}

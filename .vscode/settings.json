@@ -4,5 +4,6 @@
     "defaultdict",
     "Lify",
     "wikipeda"
-  ]
+  ],
+  "java.debug.settings.onBuildFailureProceed": true
 }

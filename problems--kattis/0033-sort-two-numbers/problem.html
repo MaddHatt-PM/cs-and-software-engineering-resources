@@ -1,0 +1,164 @@
+<div class="book-page-fixed_width">
+    <div id="instructions-close" class="book-close"><i class="fas fa-chevron-left book-close-icon"></i>Hide</div>
+    <h1 class="book-page-heading">Sort Two Numbers</h1>
+
+    <div class="problembody">
+        <p>In this problem, your program should read two whole numbers
+            (also called integers) from the input, and print them out in
+            increasing order.</p>
+        <p>As a refresher, here are some ways to read two numbers from
+            standard input in a few different languages:</p>
+        <pre># Python 3
+line = input()
+a, b = line.split()
+a = int(a)
+b = int(b)
+
+// C++
+// make sure to first "#include &lt;iostream&gt;"
+int a, b;
+std::cin &gt;&gt; a &gt;&gt; b;
+
+// Java
+// make sure to first "import java.util.Scanner;"
+Scanner s = new Scanner(System.in);
+int a = s.nextInt(), b = s.nextInt();
+</pre>
+        <h2>Input</h2>
+        <p>The input contains one line, which has two integers
+            <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="0">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D44E TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>a</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span> and <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="1">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mi class="mjx-i">
+                            <mjx-c class="mjx-c1D44F TEX-I"></mjx-c>
+                        </mjx-mi>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mi>b</mi>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>, separated by a single space. The
+            bounds on these values are <span class="tex2jax_process">
+                <mjx-container class="MathJax CtxtMenu_Attached_0" jax="CHTML"
+                    style="font-size: 125.6%; position: relative;" tabindex="0" ctxtmenu_counter="2">
+                    <mjx-math class="MJX-TEX" aria-hidden="true">
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i" space="4">
+                            <mjx-c class="mjx-c1D44E TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n">
+                            <mjx-c class="mjx-c2C"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mi class="mjx-i" space="2">
+                            <mjx-c class="mjx-c1D44F TEX-I"></mjx-c>
+                        </mjx-mi>
+                        <mjx-mo class="mjx-n" space="4">
+                            <mjx-c class="mjx-c2264"></mjx-c>
+                        </mjx-mo>
+                        <mjx-mn class="mjx-n" space="4">
+                            <mjx-c class="mjx-c31"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mstyle>
+                            <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                        </mjx-mstyle>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                        <mjx-mstyle>
+                            <mjx-mspace style="width: 0.167em;"></mjx-mspace>
+                        </mjx-mstyle>
+                        <mjx-mn class="mjx-n">
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                            <mjx-c class="mjx-c30"></mjx-c>
+                        </mjx-mn>
+                    </mjx-math>
+                    <mjx-assistive-mml unselectable="on" display="inline"><math
+                            xmlns="http://www.w3.org/1998/Math/MathML">
+                            <mn>0</mn>
+                            <mo>≤</mo>
+                            <mi>a</mi>
+                            <mo>,</mo>
+                            <mi>b</mi>
+                            <mo>≤</mo>
+                            <mn>1</mn>
+                            <mstyle scriptlevel="0">
+                                <mspace width="0.167em"></mspace>
+                            </mstyle>
+                            <mn>000</mn>
+                            <mstyle scriptlevel="0">
+                                <mspace width="0.167em"></mspace>
+                            </mstyle>
+                            <mn>000</mn>
+                        </math></mjx-assistive-mml>
+                </mjx-container>
+            </span>.
+        </p>
+        <h2>Output</h2>
+        <p>Output the smaller number first, and the larger number
+            second.</p>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 1</th>
+                    <th>Sample Output 1</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>3 4
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>3 4
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <table class="sample" summary="sample data">
+            <tbody>
+                <tr>
+                    <th>Sample Input 2</th>
+                    <th>Sample Output 2</th>
+                </tr>
+                <tr>
+                    <td>
+                        <pre>987 23
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                    <td>
+                        <pre>23 987
+</pre>
+                        <span class="copy-to-clipboard"></span>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</div>

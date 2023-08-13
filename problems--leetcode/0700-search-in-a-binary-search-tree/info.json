@@ -1,0 +1,9 @@
+{
+    "id": 700,
+    "difficulty": "easy",
+    "solve-date": "8-13-2023",
+    "tags": ["Tree", "Binary Search Tree", "Binary Tree"],
+    "groups": ["neetcode-trees"],
+    "best-runtime-beat": 78.39,
+    "best-memory-beat": 94.93
+}

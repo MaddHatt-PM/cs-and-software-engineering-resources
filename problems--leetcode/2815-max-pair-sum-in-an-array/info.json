@@ -1,0 +1,9 @@
+{
+    "id": 2815,
+    "difficulty": "easy",
+    "solve-date": "8-12-2023",
+    "tags": [],
+    "groups": ["leetcode-contest"],
+    "best-runtime-beat": 66.67,
+    "best-memory-beat": 33.33
+}
