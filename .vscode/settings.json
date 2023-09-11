@@ -3,6 +3,9 @@
     "acyclical",
     "defaultdict",
     "Lify",
+    "mathcal",
+    "preorder",
+    "qualitites",
     "wikipeda"
   ],
   "java.debug.settings.onBuildFailureProceed": true

@@ -48,3 +48,5 @@ const countConstruct = (target, wordBank, memo={}) => {
     return count;
 }
 ```
+Time Complexity: $O(n^m \times m) \to O(n \times m^2)$ as we gained an m from the checked slice.  
+Space Complexity: $O(m^2) \to O(m^2)$
