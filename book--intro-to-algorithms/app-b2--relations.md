@@ -42,6 +42,8 @@ $\quad$ Transitivity: If $aRb$ and $bRc$, then all three elements must be in the
 As the three properties of equivalence relations are satisfied,  
 $\therefore$ A partition of $A$ is also an equivalence class of a set $A$.
 
+<div style="page-break-after: always"></div>
+
 ## Partial Order
 A binary relation $R$ on a set $A$ is ___antisymmetric___ if $aRb$ and $bRa$ implies $a=b$.  
 $\quad$ Ex: The $\le$ relation on $\mathbb{N}$ is antisymmetric, since $a \le b$ and $b \le a$ implies $a=b$.  

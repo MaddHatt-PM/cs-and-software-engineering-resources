@@ -21,13 +21,16 @@ This notation can be broken down into several components
 1. The enclosing curly brackets $\{\space\}$ indicate a collection of elements of length of elements.
 2. The variable declaration $a \in \mathbb{N}$ is used to declare the type of variable that is used.
 3. The such-that operator, the colon, is used to separate the variable declaration from the conditions.  
-    Note: The seperator may appear as a vertical bar | based on preference.
+    Note: The separator may appear as a vertical bar | based on preference.
 4. The conditions declaration segment can include multiple conditions and new variables.
+
 
 ### Subsets
 ___Def: Subset___: If $\forall x \in A \implies x \in B$, then we write $A \subseteq B$ (read as "$A$ is a ___subset___ of $B$").  
 ___Def: Proper Subset___: If $\forall x \in A \implies (x \in B) \land (A \neq B)$, then we write $A \subset B$.  
 $\quad$ Note: The Empty Set $\emptyset$ is a subset of all sets.
+
+<div style="page-break-after: always"></div>
 
 ### Set Operations
 Given two sets $A$ and $B$, we can define new sets by applying ___set operations___.  
@@ -77,6 +80,7 @@ For any two sets $A, B \subseteq U$, we define:
 $\quad$ $(A \cap B)' = A' \cup B'$,  
 $\quad$ $(A \cup B)' = A' \cap B'$.
 
+<div style="page-break-after: always"></div>
 
 ### Disjoint Sets
 ___Def: Disjoint___: Two sets $A$ and $B$ are ___disjoint___ if they have no elements in common, $A \cap B = \emptyset$.  
@@ -89,6 +93,7 @@ $$
 In other words, $\mathbb{S}$ forms a partition of $S$ if each element of $S$ appears in exactly one $S_i$ member of $\mathbb{S}$.  
 Notation: Due to set theory rules, $\mathbb{S}$ is referred to as a collection and __not__ as a set of sets.  
 Notation: The Big Union operator $\bigcup$ iterates through all set elements and unions them into a single set.  
+
 
 ### Counting
 ___Def: Cardinality (Size)___: The number of elements in a set, denoted as $|S|$.  
@@ -112,18 +117,6 @@ ___Def: Power Set___: The set of all subsets of a set $S$, include the $\emptyse
 Example: Let $S=\{a,b\}$, then $\mathcal{P}(S)= \Bigl\{\emptyset, \{a\}, \{b\}, \{a,b\} \Bigl\}$.
 
 
-### Ordered Sets
-Recall: Sets are unordered collections of elements.  
-To get around this property, we can define an ___ordered list___ of numbers as nested sets.  
-Example:
-$$
-\begin{aligned}
-\text{set}(a,b,c) &\neq \text{set}(c,b,a)\\
-\Bigl\{a, \{a,b\}, \{a,b,c\}\Bigl\} &\neq \Bigl\{c, \{c,b\}, \{c,b,a\}\Bigl\}.
-\end{aligned}
-$$
-
-
 ### Cartesian Product
 ___Def: Cartesian Product___: Given two sets $A$ and $B$, the Cartesian Product, denoted $A \times B $, is the set $\{(a,b): a \in A \text{ and } b \in B \}$.  
 Example: $\{a,b\} \times \{a,b,c\} =$
@@ -142,3 +135,18 @@ The cardinality of this product is $|A_1 \times A_2 \times \dots \times A_n| = |
 
 We denote an ___n-fold___ Cartesian product over a single set $A$ as $A^n = A_1 \times A_2 \times A_n$.  
 The cardinality of this product $|A^n| = |A|^n$ if $A$ is finite.
+
+<div style="page-break-after: always"></div>
+
+### Ordered Sets
+Recall: Sets are unordered collections of elements.  
+To get around this property, we can define an ___ordered list___ of numbers as nested sets.  
+Example:
+$$
+\begin{aligned}
+\text{set}(a,b,c) &\neq \text{set}(c,b,a)\\
+\Bigl\{a, \{a,b\}, \{a,b,c\}\Bigl\} &\neq \Bigl\{c, \{c,b\}, \{c,b,a\}\Bigl\}.
+\end{aligned}
+$$
+
+

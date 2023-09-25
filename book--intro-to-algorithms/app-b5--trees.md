@@ -35,6 +35,8 @@ Note $(u,v)$ must be the unique path as proven by $(1) \implies (2)$.
 If we remove $(u,v)$ from $E$, there will no longer be a path from $u \to v$.  
 $\therefore$ The removal of $(e,v)$ from $E$ would disconnect $G$.
 
+<div style="page-break-after: always"></div>
+
 > $(3) \implies (4)$  
 As $G$ is connected, we know that $|E| \ge |V| - 1$ by a skipped exercise (B.4-3).  
 We shall prove that $|E| \le |V| - 1$ by induction.  
@@ -51,7 +53,7 @@ $\therefore$ As $|E| \le |V| - 1$ and $|E| \ge |V| - 1$, then $|E| = |V| - 1$.
 > $(4) \implies (5)$  
 Suppose that G is connected and that $|E|=|V| - 1$.  
 To show $G$ is acyclic$, suppose for contradiction that $G$ has a simple cycle containing $k$ vertices $v_1, \dots v_k$.  
-Let $G_k = (V_k,E_k) be the subgraph of $G$ consisting of the cycle.  
+Let $G_k = (V_k,E_k)$ be the subgraph of $G$ consisting of the cycle.  
 Note that $|V_k| = |E_k| = k$.  
 If $k < |V|$, then $\exists v_{k+1} \in V - V_k$ that is adjacent to some $v_i \in V_k$ as G is connected.  
 Define $G_{k+1} = (V_{k+1}, E_{k+1})$ to be the subgraph of $G$ with $V_{k+1} = V_k \cup \{v_{k+1}\}$ and $E_{k+1} = E_k \cup \{e_{k+1}\}$.  
@@ -79,6 +81,8 @@ $\therefore$ $G$ is connected.
 
 $\blacksquare$
 
+<div style="page-break-after: always"></div>
+
 ## B.5.2 Rooted and Ordered Trees
 ___Def: Rooted Tree___ is a free tree with a vertex distinguished from the others as the ___root___.  
 In the context of a rooted tree, the vertices are referred to as ___nodes___.  
@@ -87,7 +91,7 @@ Visually, the root node is depicted as being the top most node.
 ___Def: Parent___: Given a non-root node, the parent node is the node directly above it.  
 ___Def: Ancestor___: Let $x$ be a node, any node in the simple path from the root to $x$ is an ancestor of $x$.  
 ___Def: Descendant___: Let $x$ be a node, if a node has $x$ as its ancestor, then that node is an ancestor of $x$.  
-$\quad$ Note: Any node $x$ is both its ancestor and descendent by definition. Ancestors and descendent that are not $x$ are referred to as ___proper___.  
+$\quad$ Note: A node $x$ is both its ancestor & descendent by definition. Ancestors & descendents not of $x$ are ___proper___.  
 ___Def: Child___: Given a non-leaf node, a child node is the node directly below it. A node may have multiple children  
 ___Def: Siblings___: Nodes that share the same parent.  
 ___Def: Leaf (external node)___: A node is a leaf or external node if it does not have any children.  

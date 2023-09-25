@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "app-b1--sets.md",
+                "file": "app-b5--trees.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "ea7d178a72f9f9c6",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.13"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "app-b1--sets.md",
+                "file": "app-b5--trees.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "app-b1--sets.md",
+                "file": "app-b5--trees.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "app-b1--sets.md"
+                "file": "app-b5--trees.md"
               }
             }
           }
@@ -157,9 +146,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ea7d178a72f9f9c6",
+  "active": "0d3e9c0b86db7998",
   "lastOpenFiles": [
+    "exports/app-b5--trees.pdf",
+    "app-b4--graphs.md",
+    "exports/app-b4--graphs.pdf",
+    "app-b3--functions.md",
+    "exports/app-b3--functions.pdf",
     "app-b2--relations.md",
+    "exports/app-b2--relations.pdf",
     "app-b1--sets.md",
     "export-appearance.css",
     "export-appearance.css.md",

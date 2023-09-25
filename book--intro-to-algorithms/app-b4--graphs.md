@@ -13,7 +13,7 @@ If $(u,v) \in E$, then vertex $u$ is ___adjacent___ to vertex $v$, denoted $u \t
 ___Def: Out-Degree of a Vertex___: The number of edges leaving a vertex.  
 ___Def: In-Degree of a Vertex___: The number of edges entering a vertex.  
 
-Given a directed graph $G_D=(V_D, E_D)$, the ___undirected version___ $G_E=(V_U, E_U)$ is where $(u,v),(v,u)\in E_D \iff (u,v)\in E_U$ and $v \neq u $.  
+Given a directed graph $G_D=(V_D, E_D)$, the ___undirected version___ $G_E=(V_U, E_U)$ is $(u,v),(v,u)\in E_D \iff (u,v)\in E_U$ and $v \neq u$.  
 ___Def: Neighbor___: Two vertices that are adjacent in their undirected version.
 
 
@@ -35,13 +35,13 @@ Note: A vertex with degree 0 is said to be ___isolated___.
 Given a undirected graph $G_U=(V_U, E_U)$, the ___directed version___ $G_D=(V_D, E_D)$ is where $(u,v)\in E_U \iff(u,v),(v,u) \in E_D$.  
 ___Def: Neighbor___: Two vertices that are adjacent.
 
----
+<div style="page-break-after: always"></div>
 
 ### Paths
 A ___path___ from a vertex $u$ to a vertex vertex $u'$ in a graph $G$ is a sequence $[v_0, \dots, v_k]$ such that $u=v_0$, $u'=v_k$, and $(v_{i-1}, v_i) \in E$ for $i = 1, \dots, k$.  
 The length of the path is value $k$.  
 The path contains the vertices $v_0, \dots, v_k$ and edges $(v_0, v_1), \dots (v_{k-1}, v_k)$.  
-Note: For all vertex $u$, theres exists a 0-length path from $u$ to $u$.  
+Note: For all vertex $u$, there exists a 0-length path from $u$ to $u$.  
 If there exists a path from $u$ to $u'$, we say that $u'$ is ___reachable___ from $u$ via path $p$.  
 A path is ___simple___ if all vertices in the path are distinct.
 
