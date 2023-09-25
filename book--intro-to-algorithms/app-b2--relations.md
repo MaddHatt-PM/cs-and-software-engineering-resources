@@ -1,16 +1,16 @@
-# Appendix B.2 Relations
-A ___Binary Relation___ $R$ on two sets $A$ and $B$ is a subset of the Cartesian product $A \times B$, symbolically as $ R \subseteq A \times B$.  
+# Appendix B.2 Relations - Condensed Notes
+A ___Binary Relation___ $R$ on two sets $A$ and $B$ is a subset of the Cartesian product $A \times B$, symbolically as $R \subseteq A \times B$.  
 If $(a,b) \in R$, we sometimes write $a\space R \space b$.  
 When we say $R$ is a binary relation on a set $A$, we mean that $R \subseteq A \times A$.  
-Ex: let $R$ be the "$\le$" relation on $\N$, so $R = \{(a,b) \in \N\times\N : a < b\}$.  
+Ex: let $R$ be the "$\le$" relation on $\mathbb{N}$, so $R = \{(a,b) \in \mathbb{N}\times\mathbb{N} : a < b\}$.  
 
 A binary relation $R \subseteq A \times A$, is ___reflexive___ if $(a,a) \in R$.  
-    $\quad$ Ex: The "$=$" and "$\le$" are reflexive relations on $\N$ but "$<$" is not.  
+    $\quad$ Ex: The "$=$" and "$\le$" are reflexive relations on $\mathbb{N}$ but "$<$" is not.  
 A binary relation $R$ is ___symmetric___ if $(a, b) \in R \implies \exists(b,a) \in R$.  
     $\quad$ Ex: The "$=$" is symmetric relation, but "$\le$" and "$<$" are not.  
 A binary relation $R$ is ___transitive___ if $(a,b), (b,c) \in R \implies (a,c) \in R$.  
     $\quad$ Ex: The relations "$=$", "$\le$", and "$<$" are transitive.  
-    $\qquad\:$ The relation $R = \{(a,b) : a,b \in \N \text{ and } a = b- 1 \}$ is not transitive as $3\:R\:4$ and $4\:R\:5$ do not imply $3\:R\:5$.
+    $\qquad\:$ The relation $R = \{(a,b) : a,b \in \mathbb{N} \text{ and } a = b- 1 \}$ is not transitive as $3\:R\:4$ and $4\:R\:5$ do not imply $3\:R\:5$.
 
 A relation $R$ that is reflexive, symmetric, and transitive is an ___equivalence relation___.  
 If $R$ is an equivalence relation on a set $A$, then for $a \in A$, the ___equivalence class___ of $a$ is $[a] = \{b \in A: a\:R\:b\}$, or the set of all elements equivalent to $a$.
@@ -44,7 +44,7 @@ $\therefore$ A partition of $A$ is also an equivalence class of a set $A$.
 
 ## Partial Order
 A binary relation $R$ on a set $A$ is ___antisymmetric___ if $aRb$ and $bRa$ implies $a=b$.  
-$\quad$ Ex: The $\le$ relation on $\N$ is antisymmetric, since $a \le b$ and $b \le a$ implies $a=b$.  
+$\quad$ Ex: The $\le$ relation on $\mathbb{N}$ is antisymmetric, since $a \le b$ and $b \le a$ implies $a=b$.  
 A relation that is reflexive, antisymmetric, and transitive is a ___partial order___.  
 The set that a partial order is defined on is a ___partially ordered set___.
 

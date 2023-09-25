@@ -1,21 +1,29 @@
-# Appendix B.1 Sets
+# Appendix B.1 Sets - Condensed Notes
 ___Def: Set___: A collection of distinct __members__ or __elements__.  
-Notation: If an object $x$ is a member of set $S$, we write $x \in S$ (read "$x$ is a member of $S$" or "$x$ is in $S$").  
+Notation: If an object $x$ is a member of set $S$, we write $x \in S$. 
+$\quad$ Read "$x$ is a member of $S$" or "$x$ is in $S$"  
 $\quad$ If $x$ is not a member of $S$, we write $x\not\in S$.  
 We can describe a set explicitly using set notation, example: $\{1,2,3\}$.  
 Two sets $A$ and $B$ are are ___equal___, written $A=B$, if they contain the same elements.  
 Note: Sets are unordered collections.  
 
 Special Notation for frequently encountered sets:  
-$\quad $ $\emptyset$ denotes the empty set, a set with no members.  
-$\quad $ $\Z$ denotes the set of __integers__ $\{\dots, -2, -1, 0, 1, 2, \dots\}$  
-$\quad $ $\R$ denotes the set of __real numbers__.  
-$\quad $ $\N$ denotes the set of natural numbers $\{0, 1, 2, 3, \dots\}$  
+$\quad$ $\emptyset$ denotes the empty set, a set with no members.  
+$\quad$ $\mathbb{Z}$ denotes the set of __integers__ $\{\dots, -2, -1, 0, 1, 2, \dots\}$  
+$\quad$ $\mathbb{R}$ denotes the set of __real numbers__.  
+$\quad$ $\mathbb{N}$ denotes the set of natural numbers $\{0, 1, 2, 3, \dots\}$  
 $\qquad$ Note: Some mathematicians start the natural numbers with $0$ or $1$.
+
+### Set Notation Reading
+Given $\{a\in\mathbb{N} : a < 0 \text{ and } a \ge b \space (b \in \mathbb{N} \ni b = \lceil f(b)\rceil )\}$, we can break down the notation into a number of parts
+1. The enclosing curly brackets $\{\space\}$ indicate a collection of elements of length of elements.
+2. The variable declaration $a \in \mathbb{N}$ is used to declare the type of variable that is used.
+3. The such-that operator, the colon, is used to separate the variable declaration from the conditions.
+4. The conditions declaration segment can include multiple conditions and new variables.
 
 ### Subsets
 ___Def: Subset___: If $\forall x \in A \implies x \in B$, then we write $A \subseteq B$ (read as "$A$ is a ___subset___ of $B$").  
-___Def: Proper Subset___: If $\forall x \in A \implies (x \in B) \land (A \neq B) $, then we write $A \subset B$.  
+___Def: Proper Subset___: If $\forall x \in A \implies (x \in B) \land (A \neq B)$, then we write $A \subset B$.  
 $\quad$ Note: The Empty Set $\emptyset$ is a subset of all sets.
 
 ### Set Operations
@@ -52,7 +60,8 @@ $\qquad$ $A - (B \cup C) = (A - B) \cap (A - C)$.
 
 ### The Universe and Complements
 All sets are typically subsets of some larger set $U$, the ___universe___.  
-Example: The set $A = \{1,2,3\}$ is a subset of the natural numbers or the integers. It may be crucial to define $U = \N$ or $U = \Z$ for clarity.  
+Example: The set $A = \{1,2,3\}$ is a subset of the natural numbers or the integers.  
+It may be crucial to define $U = \mathbb{N}$ or $U = \mathbb{Z}$ for clarity.  
 
 Given a universe $U$, we define the ___complement___ of a set $A$ as $A' = U-A = \{\space x : x \in U \text{ and } x \not\in A \space\}$.  
 For any set $A \subseteq U$, we have the following laws,  
@@ -82,8 +91,8 @@ Notation: The Big Union operator $\bigcup$ iterates through all set elements and
 ___Def: Cardinality (Size)___: The number of elements in a set, denoted as $|S|$.  
 Note: The cardinality of the empty set $\emptyset = 0$.  
 If the cardinality of a set is a natural number, then set is ___finite___, else it is ___infinite___.  
-If an infinite set that can be put into a one-to-one correspondence with the natural numbers $\N$ is ___countably infinite___, else it is ___uncountable___.  
-The integers $\Z$ are countably infinite while the reals $R$ are uncountable.
+If an infinite set that can be put into a one-to-one correspondence with the natural numbers $\mathbb{N}$ is ___countably infinite___, else it is ___uncountable___.  
+The integers $\mathbb{Z}$ are countably infinite while the reals $R$ are uncountable.
 
 For any two finite sets $A$ and $B$, we have the identity $|A \cup B| = |A| + |B| - |A \cup B|$.  
 We can deduce that $|A \cup B| \le |A| + |B|$.  
@@ -114,14 +123,15 @@ $$
 
 ### Cartesian Product
 ___Def: Cartesian Product___: Given two sets $A$ and $B$, the Cartesian Product, denoted $A \times B $, is the set $\{(a,b): a \in A \text{ and } b \in B \}$.  
-Example: $\{a,b\} \times \{a,b,c\} =
+Example: $\{a,b\} \times \{a,b,c\} =$
+$$
 \Biggl\{
     \begin{array}{l}
         (a,a), (a,b), (a,c),\\[2px]
         (b,a), (b,b), (b,c)
     \end{array}
-\Biggl\}$
-
+\Biggl\}
+$$
 When $A$ and $B$ are finite sets, the cardinality of the Cartesian product is $|A \times B| = |A| \cdot |B|$.  
 
 The Cartesian product of $n$ sets $A_1, A_2, \dots, A_n$ is the set of ___n-tuples___.  
