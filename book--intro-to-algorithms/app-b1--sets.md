@@ -15,10 +15,13 @@ $\quad$ $\mathbb{N}$ denotes the set of natural numbers $\{0, 1, 2, 3, \dots\}$
 $\qquad$ Note: Some mathematicians start the natural numbers with $0$ or $1$.
 
 ### Set Notation Reading
-Given $\{a\in\mathbb{N} : a < 0 \text{ and } a \ge b \space (b \in \mathbb{N} \ni b = \lceil f(b)\rceil )\}$, we can break down the notation into a number of parts
+Let $A =\{a\in\mathbb{N} : a < 10 \text{ and } a \ge b \space (b \in \mathbb{N} \ni b = \lceil f(a)\rceil )\}$.  
+This can be read as the set $A$ contains the natural numbers less than $10$ and greater than $b$ with $b$ being the ceiling of $f$ of $a$.  
+This notation can be broken down into several components
 1. The enclosing curly brackets $\{\space\}$ indicate a collection of elements of length of elements.
 2. The variable declaration $a \in \mathbb{N}$ is used to declare the type of variable that is used.
-3. The such-that operator, the colon, is used to separate the variable declaration from the conditions.
+3. The such-that operator, the colon, is used to separate the variable declaration from the conditions.  
+    Note: The seperator may appear as a vertical bar | based on preference.
 4. The conditions declaration segment can include multiple conditions and new variables.
 
 ### Subsets
